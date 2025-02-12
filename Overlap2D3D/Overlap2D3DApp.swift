@@ -18,9 +18,9 @@ struct Overlap2D3DApp: App {
     
     var body: some Scene {
         WindowGroup {
-
+            
             ContentView()
-            }
+        }
         
         ImmersiveSpace(id: "Empty") {
             Emptyy()
