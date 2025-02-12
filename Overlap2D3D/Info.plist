@@ -11,5 +11,7 @@
 		<key>UISceneConfigurations</key>
 		<dict/>
 	</dict>
+	<key>UISceneSessionRoleImmersiveSpaceApplication</key>
+	<string>YES</string>
 </dict>
 </plist>
