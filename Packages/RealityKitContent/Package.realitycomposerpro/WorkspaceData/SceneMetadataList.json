@@ -27,8 +27,7 @@
     "objectMetadataList" : [
       [
         "A3E7ED19-7022-497D-B5E0-C8DBFA915733",
-        "Root",
-        "Material"
+        "Root"
       ],
       {
         "isExpanded" : true,
@@ -45,10 +44,12 @@
       },
       [
         "A3E7ED19-7022-497D-B5E0-C8DBFA915733",
-        "Root"
+        "Root",
+        "SkyDome"
       ],
       {
-        "isExpanded" : true,
+        "disallowsFraming" : true,
+        "isExpanded" : false,
         "isLocked" : false
       }
     ]

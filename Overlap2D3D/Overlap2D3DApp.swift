@@ -11,6 +11,10 @@ import RealityKitContent
 @main
 struct Overlap2D3DApp: App {
     
+    init() {
+        RealityKitContent.ObjComponent.registerComponent()
+        //call this once to register the component
+    }
     
     var body: some Scene {
         WindowGroup {
@@ -18,30 +22,10 @@ struct Overlap2D3DApp: App {
             ContentView()
             }
         
-//        WindowGroup(id: "2DModelView") {
-//            TwoDModelView()
-//        }
-//        .windowStyle(.volumetric)
-        
-//        WindowGroup(id: "3DModelView") {
-//            ThreeDModelView()
-//        }
-//        .windowStyle(.volumetric)
-        
         ImmersiveSpace(id: "Empty") {
             Emptyy()
         }
         .immersionStyle(selection: .constant(.mixed), in: .mixed)
-        
-//        ImmersiveSpace(id: "3DModelView") {
-//            ThreeDModelView()
-//        }
-//        .immersionStyle(selection: .constant(.mixed), in: .mixed)
-//        
-//        ImmersiveSpace(id: "2DModelView") {
-//            TwoDModelView()
-//        }
-//        .immersionStyle(selection: .constant(.mixed), in: .mixed)
         
     }
 }
