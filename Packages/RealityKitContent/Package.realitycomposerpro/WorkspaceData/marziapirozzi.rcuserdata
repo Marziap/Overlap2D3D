@@ -3,7 +3,8 @@
   "openSceneRelativePaths" : [
     "Model.usda",
     "Empty.usda",
-    "Image.usda"
+    "Image.usda",
+    "ShpereScene.usda"
   ],
   "recentIdentifiers" : {
     "0F327C60-3B95-45CD-940F-10577B0F322F" : [
@@ -560,5 +561,5 @@
   "sceneViewportBackgroundColors" : {
 
   },
-  "selectedSceneRelativePath" : "Model.usda"
+  "selectedSceneRelativePath" : "ShpereScene.usda"
 }

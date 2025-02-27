@@ -13,6 +13,7 @@ struct Overlap2D3DApp: App {
         WindowGroup {
             ContentView()
         }
+
         ImmersiveSpace(id: "Empty") {
             EmptyView3D()
         }
